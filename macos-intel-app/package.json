@@ -1,0 +1,10 @@
+{
+	"name": "thinkrail-macos-intel-app",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"description": "Tauri shell for the ThinkRail web UI on Intel Macs (Electrobun publishes no macOS x64 core).",
+	"devDependencies": {
+		"@tauri-apps/cli": "2.12.1"
+	}
+}

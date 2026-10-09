@@ -42,3 +42,8 @@ playwright-report-desktop/
 
 # Astro's generated type cache
 .astro/
+
+# Intel macOS Tauri shell: Rust build output and the staged engine sidecar
+macos-intel-app/src-tauri/target/
+macos-intel-app/src-tauri/binaries/
+macos-intel-app/src-tauri/gen/

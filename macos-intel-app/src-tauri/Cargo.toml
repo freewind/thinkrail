@@ -1,0 +1,13 @@
+[package]
+name = "thinkrail-macos-intel"
+version = "0.0.0"
+publish = false
+edition = "2021"
+rust-version = "1.77"
+description = "Tauri shell that shows the ThinkRail web UI in a native window on Intel Macs."
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
