@@ -43,3 +43,6 @@ echo
 echo "Built Intel macOS launcher:"
 echo "  $artifact"
 file "$artifact"
+
+echo "==> Revealing the artifact in Finder"
+open -R "$artifact"
